@@ -1,0 +1,44 @@
+name: Replication data
+description: Report your split/merge measurements from the foil protocol
+title: "Replication: <firmware version>, <ranges>"
+labels: ["data"]
+body:
+  - type: input
+    id: firmware
+    attributes:
+      label: LD2450 firmware version
+      placeholder: V2.04.23101915
+    validations:
+      required: true
+  - type: input
+    id: mounting
+    attributes:
+      label: Mounting (height, tilt) and room type
+    validations:
+      required: true
+  - type: input
+    id: reflector
+    attributes:
+      label: Reflector (foil size, how it was held)
+    validations:
+      required: true
+  - type: textarea
+    id: measurements
+    attributes:
+      label: Measurements, one line per range
+      description: Range | split separation | merge separation | dance before split? (y/n, ~duration)
+      placeholder: |
+        3.0 m | 1.2 m | 0.6 m | y, ~20 s
+    validations:
+      required: true
+  - type: dropdown
+    id: hold
+    attributes:
+      label: One target frozen while the other moved?
+      options: ["yes", "no", "didn't check"]
+    validations:
+      required: true
+  - type: textarea
+    id: raw
+    attributes:
+      label: Raw frames (link or attachment, any format)

@@ -1,0 +1,31 @@
+{
+  "session": "2026-10-31-foil-split",
+  "time_base": "t_s in frames.csv: seconds from the first recorded frame",
+  "note": "Windows are coarse and set by hand from the owner's account and the data: they separate the three stationary attempts from walking between them. Settling and split times inside each window are computed by analysis/foil_split.py, not set here.",
+  "attempts": [
+    {
+      "id": "A1",
+      "start_s": 0.0,
+      "end_s": 104.0,
+      "nominal_range_m": 4.7,
+      "foil_side": "west of the person",
+      "reflector": "full size: 12 x 20 in sheet before crumpling, about 8-10 x 16 in crumpled"
+    },
+    {
+      "id": "A2",
+      "start_s": 104.0,
+      "end_s": 172.4,
+      "nominal_range_m": 2.7,
+      "foil_side": "started west of the person, moved to the east",
+      "reflector": "full size: 12 x 20 in sheet before crumpling, about 8-10 x 16 in crumpled"
+    },
+    {
+      "id": "A3",
+      "start_s": 172.4,
+      "end_s": 325.9,
+      "nominal_range_m": 1.5,
+      "foil_side": "west of the person throughout",
+      "reflector": "full size at first; during this attempt (time not recorded) rolled up to 11.5 x 10 in, measured"
+    }
+  ]
+}
