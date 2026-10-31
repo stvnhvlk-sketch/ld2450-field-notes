@@ -2,7 +2,7 @@
 
 Measured behaviour of the HLK-LD2450 24 GHz radar module: target splitting,
 merging, held reports and output fields. Raw frames, the method, and a script
-that reproduces every number on this page.
+that reproduces the measured numbers.
 
 I'm collecting **data from other units, rooms and firmware versions**. The
 protocol and a reply form are at the end. Measurements are what's useful here;
@@ -51,7 +51,7 @@ frame-to-frame step was 3.3 m/s.
 | ~1.7 m | never split | — | — | — |
 
 Three of the four splits came with both targets at nearly the **same range**,
-13.6–28.4° apart in bearing. The exception, the brief 0.95 m split, had a
+14.7–28.4° apart in bearing. The exception, the brief 0.95 m split, had a
 558 mm range difference. "Keep people a metre apart" is about right for
 splitting, but once split they stay separate down to about half that.
 
